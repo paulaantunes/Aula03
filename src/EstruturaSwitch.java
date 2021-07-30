@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class EstruturaSwitch {
 
 	public static void main(String[] args) {
-		/*Crie um programa que permita ao usuário escolher o elogio que gostaria de receber, de acordo com a seguinte regra: 1 - Elogio profissional, 2 - Elogio físico, 3 - Elogio pessoal
-		 * Caso digite qualquer outro número, deve ser exibida a mensagem "opção inválida"*/
+		/*Crie um programa que permita ao usuï¿½rio escolher o elogio que gostaria de receber, de acordo com a seguinte regra: 1 - Elogio profissional, 2 - Elogio fï¿½sico, 3 - Elogio pessoal
+		 * Caso digite qualquer outro nï¿½mero, deve ser exibida a mensagem "opï¿½ï¿½o invï¿½lida"*/
 		Scanner leitor = new Scanner(System.in);
 		int opcao;
 		System.out.println("ELOGIADOR!");
-		System.out.println("Selecione a opção desejada:\n1-Elogio profissional\n2-Elogio físico\n3-Elogio pessoal");
+		System.out.println("Selecione a opÃ§Ã£oo desejada:\n1-Elogio profissional\n2-Elogio fï¿½sico\n3-Elogio pessoal");
 		opcao = leitor.nextInt();
 	
-		//Aqui precisamos de uma estrutura para validar a opção inserida.
+		//Aqui precisamos de uma estrutura para validar a opï¿½ï¿½o inserida.
 
 		leitor.close();
 
